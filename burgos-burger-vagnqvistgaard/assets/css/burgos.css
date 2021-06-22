@@ -1,0 +1,130 @@
+/*-------- overordnet css for burgos burger-joint ----*/
+
+.Global{
+    box-sizing: border-box;
+    margin: 0 auto;
+    /*font-family: 'Nunito Sans', sans-serif;*/
+    font-family: sans-serif;
+}
+
+.Container{
+   width: 100vw;
+   /*background-color: aliceblue;*/
+}
+
+/*------ header ------------ */
+/*
+.Header {
+    width: 100vw;
+    height: 960px;
+    background-image: url("../img/hero01.jpg");
+    background-size: cover;
+    
+}
+
+.Header__herobox {
+    width: 580px;
+    height: 960px;
+    background-color: #f58c2ac4;
+    margin-left: 10vw;
+
+}
+*/
+
+.Header {
+    width: 100vw;
+    height: 960px;
+    background-image: url("../img/hero01.jpg");
+    background-size: cover;
+
+    color: white;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.Header__logobox{
+    grid-column: 1 / 2;
+}
+
+.Header__herobox{
+    grid-column: 2 / 3;
+    width: 580px;
+    height: 960px;
+    background-color: #f58c2ac4;
+}
+
+.Header__Nav{
+    grid-column: 3 / 5;
+    
+
+}
+
+
+
+
+
+/*--------- main----------------*/
+
+
+
+/*--------- main, advertising ---------*/
+
+.Advertising{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+/*-------- main, galleri -------------*/
+
+.Gallery{
+    width: 100vw;
+    display: flex;
+    justify-content: center; 
+}
+
+.Gallery figure{
+    margin: 0;
+}
+
+.Gallery__Gallery-app{
+    width: 82vw;
+    height: 1200px;
+    /*border: grey 1px solid;*/
+}
+
+.Gallery__Gallery-app h1 {
+    font-size: xx-large;
+    margin-left: 0;
+}
+
+.Gallery__Gallery-app #large-image {
+    width: 50%;
+    
+}
+
+.Gallery__Gallery-app #thumbs {
+    width: 50%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.Gallery__Gallery-app #thumbnail {
+    width: 33%;
+}
+
+
+
+/*-------- main, anbefalede ------------*/
+
+
+/*-------- main, kontakt ---------------*/
+
+
+/*--------- main slut ------------------*/
+
+/*------------ footer ---------------*/
